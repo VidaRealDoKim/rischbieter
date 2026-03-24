@@ -40,8 +40,8 @@ export const company = {
   serviceHours: 'Segunda a Sexta: 8h às 18h',
 
   // Imagens e Assets
-  logo: '/assets/images/logo-rischbieter.svg',
-  heroImage: '/assets/images/retentor-diagrama.svg',
+  logo: '/rischbieter/assets/images/logo-rischbieter.svg',
+  heroImage: '/rischbieter/assets/images/retentor-diagrama.svg',
 
   // Textos
   institucionalText:
