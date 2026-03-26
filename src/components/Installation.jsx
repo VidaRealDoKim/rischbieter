@@ -47,7 +47,7 @@ const Installation = () => {
           <div className="grid md:grid-cols-2 gap-8">
             {steps.map((step, index) => (
               <motion.div
-                key={index}
+                key={step.number}
                 initial={{ opacity: 0, x: index % 2 === 0 ? -20 : 20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
@@ -65,7 +65,7 @@ const Installation = () => {
                     </div>
                   </div>
                 </div>
-                {index < steps.length - 1 && (
+                {index % 2 === 0 && index < steps.length - 1 && (
                   <div className="hidden md:block absolute top-1/2 -right-4 w-8 h-0.5 bg-blue-200"></div>
                 )}
               </motion.div>
