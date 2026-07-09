@@ -158,28 +158,28 @@ export const galleryItems = [
   {
     title: 'Retentor instalado no padrão de ligação',
     placeholderLabel: 'Aplicação em campo',
-    src: '/rischbieter/assets/images/gallery-instalacao-01.jpg',
+    src: '/assets/images/gallery-instalacao-01.jpg',
     alt: 'Retentor de partículas instalado no cavalete de medição',
     available: false
   },
   {
     title: 'Comparativo de incrustações na rede',
     placeholderLabel: 'Imagem do teste',
-    src: '/rischbieter/assets/images/gallery-comparativo-02.jpg',
+    src: '/assets/images/gallery-comparativo-02.jpg',
     alt: 'Comparativo entre condição de tubulação com e sem proteção',
     available: false
   },
   {
     title: 'Hidrômetro com desgaste por sólidos',
     placeholderLabel: 'Imagem do teste',
-    src: '/rischbieter/assets/images/gallery-desgaste-03.jpg',
+    src: '/assets/images/gallery-desgaste-03.jpg',
     alt: 'Hidrômetro aberto com sinais de desgaste por partículas sólidas',
     available: false
   },
   {
     title: 'Detalhe técnico do dispositivo',
     placeholderLabel: 'Aplicação em campo',
-    src: '/rischbieter/assets/images/gallery-produto-04.jpg',
+    src: '/assets/images/gallery-produto-04.jpg',
     alt: 'Detalhe do corpo do retentor de partículas em PVC rígido',
     available: false
   }
